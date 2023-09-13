@@ -3,9 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Une brève description de la page">
     <title>Ma page HTML</title>
 </head>
 <body>
-    
+    <header>
+        <h1>L'OM C'EST NOUS</h1>
+        <p>En-tête du site avec un logo ou une description.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#info">Informations</a></li>
+            <li><a href="#formulaire">Formulaire</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="about">
+            <h2>Article Principal</h2>
+            <p>In proident cupidatat ipsum laborum cupidatat fugiat dolor aute culpa. Sint anim sint officia aliquip magna consectetur nostrud eiusmod et eu dolore veniam sunt. Nisi est esse excepteur eiusmod id anim ut labore irure labore esse. Nostrud sint nisi aliquip elit nisi fugiat magna dolor et culpa eu voluptate nulla. Lorem magna consectetur esse cillum occaecat ullamco proident aliqua non et. Proident consectetur laborum excepteur nulla quis cillum ipsum dolor. Qui id culpa sit dolore excepteur.
+
+Et occaecat aliqua amet proident qui excepteur ipsum. Nisi dolore ex qui tempor non non ut ut id commodo ut commodo. Enim ad do cupidatat pariatur dolore quis nulla amet. Id Lorem anim magna cupidatat consectetur sit enim eu fugiat laborum fugiat.
+
+Dolore ad nostrud ex duis quis occaecat aute nostrud anim esse pariatur mollit tempor. Non Lorem elit excepteur nostrud laboris reprehenderit ea sit in aliquip. Duis veniam Lorem sint quis proident esse irure. Mollit consequat veniam minim tempor laboris mollit sint adipisicing tempor ut esse cupidatat. Fugiat dolore ullamco do aliqua ea quis Lorem anim irure qui excepteur proident.
+
+Laborum qui officia exercitation veniam reprehenderit tempor magna officia veniam nisi officia laborum anim. Ut anim irure in dolor do dolor. Est ad exercitation ut quis proident labore. Et cillum commodo fugiat aliqua tempor. Cupidatat deserunt et velit labore et elit tempor irure voluptate ullamco elit occaecat.</p>
+            <a href="https://www.om.fr/fr">Vers le site du meilleur club français</a>
+        </article>
+
+        <section id="info"">
+            <h2>UEFA MAFIA jusqu'à la mort</h2>
+            <img src="src/uefa.png" alt="Logo du mouvement UEFA MAFIA">
+            <video width="640" height="360" controls>
+                <source src="src/uefa.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="tab">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Groupe</th>
+                        <th>Année de création</th>
+                        <th>Virage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>South Winners</td>
+                        <td>25</td>
+                        <td>Paris</td>
+                    </tr>
+                    <tr>
+                        <td>Commando Ultras</td>
+                        <td>30</td>
+                        <td>Lyon</td>
+                    </tr>
+                    <tr>
+                        <td>MTP</td>
+                        <td>22</td>
+                        <td>Marseille</td>
+                    </tr>
+                    <tr>
+                        <td>Dodgers</td>
+                        <td>22</td>
+                        <td>Marseille</td>
+                    </tr>
+                    <tr>
+                        <td>Fanatics</td>
+                        <td>22</td>
+                        <td>Marseille</td>
+                    </tr>
+                    <tr>
+                        <td>CAOM</td>
+                        <td>22</td>
+                        <td>Marseille</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="list">
+            <p>Mes ambiances préférées.</p>
+            <ol>
+                <li>Pommes</li>
+                <li>Bananes</li>
+                <li>Oranges</li>
+                <li>Fraises</li>
+              </ol>
+            <p>Les clubs Amis</p>
+              <ul>
+                <li>Chien</li>
+                <li>Chat</li>
+                <li>Oiseau</li>
+                <li>Poisson</li>
+              </ul>
+        </section>
+        <section id="text">
+            <p>
+                Voici quelques exemples de balises pour formater le texte :
+            </p>
+              <strong>Ceci est un texte en gras.</strong>
+              <em>Ceci est un texte en italique.</em>
+              <blockquote>Ceci est un texte en citation.</blockquote>
+              <code>Ceci est du code informatique.</code>
+              <p>
+                <abbr title="Hypertext Markup Language">HTML</abbr> est un langage de balisage utilisé pour créer des pages web.
+              </p>
+
+        </section>
+
+        <aside>
+            <h2>À Propos de l'Auteur</h2>
+            <p>Excepteur incididunt Lorem fugiat aliqua sit Lorem tempor ipsum nostrud eiusmod magna cupidatat amet. In esse nostrud ea fugiat excepteur excepteur esse veniam minim veniam et dolor enim velit. Excepteur veniam dolor aliqua fugiat eu eiusmod consectetur irure id enim commodo minim. Ex incididunt irure magna labore id.
+
+Dolor ipsum pariatur in dolor. In laborum ea magna eiusmod magna ad. Tempor consequat proident deserunt sint do officia.
+
+Labore irure incididunt aliqua duis excepteur commodo pariatur sit tempor. Lorem dolor quis incididunt exercitation officia adipisicing commodo fugiat ex minim ut in. Lorem irure qui magna do ut labore laboris consectetur nisi. Tempor ut nisi fugiat minim culpa cupidatat quis sit fugiat non non enim. Irure nisi labore laboris ut esse. Cillum exercitation Lorem nisi aute officia.</p>
+        </aside>
+    <form id="formulaire">
+        <h2>Formulaire Simple</h2>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom"><br><br>
+
+        <label for="motDePasse">Mot de Passe :</label>
+        <input type="password" id="motDePasse" name="motDePasse"><br><br>
+
+        <label for="accepterConditions">Accepter les Conditions :</label>
+        <input type="checkbox" id="accepterConditions" name="accepterConditions"><br><br>
+
+        <label for="genreHomme">Homme :</label>
+        <input type="radio" id="genreHomme" name="genre" value="homme">
+        <label for="genreFemme">Femme :</label>
+        <input type="radio" id="genreFemme" name="genre" value="femme"><br><br>
+
+        <input type="submit" value="Soumettre">
+    </form>
+    </main>
+
+    <footer>
+        <p>Pied de page avec les informations de contact.</p>
+    </footer>
+    <script>
+        window.onload = function() {
+            alert("La page est chargée !");
+        }
+    </script>
 </body>
 </html>
